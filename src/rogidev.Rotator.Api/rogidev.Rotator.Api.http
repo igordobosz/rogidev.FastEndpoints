@@ -1,0 +1,6 @@
+@rogidev.Rotator.Api_HostAddress = http://localhost:5249
+
+GET {{rogidev.Rotator.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
