@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rogidev.Rotator.Api", "rogidev.Rotator.Api\rogidev.Rotator.Api.csproj", "{A90D77CE-7089-4EEF-BA75-C495BA38C4D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rogidev.Rotator.Common", "rogidev.Rotator.Common\rogidev.Rotator.Common.csproj", "{F9A5E650-D39B-4785-A7BE-935027D5A108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0AC2685-3454-4F81-B6AE-71B0A7CE098B}"
+	ProjectSection(SolutionItems) = preProject
+		GlobalUsings.cs = GlobalUsings.cs
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rogidev.Rotator.Persistence", "rogidev.Rotator.Persistence\rogidev.Rotator.Persistence.csproj", "{FD4D4E53-B445-47B6-A1EF-79690013762E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,13 @@ Global
 		{A90D77CE-7089-4EEF-BA75-C495BA38C4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A90D77CE-7089-4EEF-BA75-C495BA38C4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A90D77CE-7089-4EEF-BA75-C495BA38C4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A5E650-D39B-4785-A7BE-935027D5A108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A5E650-D39B-4785-A7BE-935027D5A108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A5E650-D39B-4785-A7BE-935027D5A108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A5E650-D39B-4785-A7BE-935027D5A108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4D4E53-B445-47B6-A1EF-79690013762E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4D4E53-B445-47B6-A1EF-79690013762E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4D4E53-B445-47B6-A1EF-79690013762E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4D4E53-B445-47B6-A1EF-79690013762E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
