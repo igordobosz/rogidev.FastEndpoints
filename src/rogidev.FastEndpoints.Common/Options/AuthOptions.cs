@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.Options;
+﻿namespace rogidev.Rotator.Common.Options;
 
 public class AuthOptions
 {

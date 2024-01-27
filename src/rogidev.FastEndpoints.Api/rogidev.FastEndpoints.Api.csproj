@@ -3,6 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>rogidev.Rotator.Api</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,8 +13,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\rogidev.Rotator.Common\rogidev.Rotator.Common.csproj" />
-      <ProjectReference Include="..\rogidev.Rotator.Persistence\rogidev.Rotator.Persistence.csproj" />
+      <ProjectReference Include="..\rogidev.FastEndpoints.Common\rogidev.FastEndpoints.Common.csproj" />
+      <ProjectReference Include="..\rogidev.FastEndpoints.Persistence\rogidev.FastEndpoints.Persistence.csproj" />
     </ItemGroup>
 
 </Project>

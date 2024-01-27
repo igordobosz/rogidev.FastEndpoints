@@ -1,6 +1,6 @@
-# Rotator
+# FastEndpoints
 
-Rotator is a sample project using FastEndpoints and DbUp packages.
+FastEndpoints is a sample project using FastEndpoints and DbUp packages.
 
 ## Usage
 
